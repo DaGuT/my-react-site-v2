@@ -18,22 +18,18 @@ class TextScramble extends Component {
       .arrayOf(PropTypes.string)
       .isRequired,
     /**
-     * Function that will be run after all animations are complited
-     * this callback can be used to update state of parent component to tell that animation is finished or some other cases
+     * function that will be called each time phrase was fully shown
+     * it has argument that shows in percent ([0,1]) what progress was made
      */
-    "finishCallback": PropTypes.func,
+    "reportProgress":PropTypes.func,
     /**
-    * time that each phrase should be displayed. 
+    * time that each phrase should be displayed after appearing. 
     * Default value: 800
     */
-    "phraseTime": PropTypes.number
+    "freezeDuration": PropTypes.number
   }
   static defaultProps = {
-    phraseTime: 800
-  }
-
-  constructor() {
-    super();
+    freezeDuration: 800
   }
 
   //after component is mounted, we start our magic
@@ -47,13 +43,14 @@ class TextScramble extends Component {
         fx
           .setText(this.props.phrases[counter])
           .then(() => {
-            setTimeout(next, 800);
+            this.props.reportProgress && this.props.reportProgress(counter/this.props.phrases.length);
+            setTimeout(next, this.props.freezeDuration);
           });
         counter++;
       } else {
-        this.props.finishCallback && this
+        this.props.reportProgress && this
           .props
-          .finishCallback();
+          .reportProgress(1);
       }
     };
 

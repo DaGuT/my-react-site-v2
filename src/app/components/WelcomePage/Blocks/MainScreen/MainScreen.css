@@ -24,13 +24,12 @@
     right:10px;
 }
 
-.TextScrumble-progressbar {
+.TextScramble-progressbar {
     color:white;
     position:relative;
 }
 
-.TextScrumble-progressbar::before {
-    content: '';
+.TextScramble-progressbar .underline {
     position: absolute;
     bottom: 0; left: 0;
     width: 0px;
@@ -38,8 +37,4 @@
     background-color: white;
     transition-property: width;
     transition-duration:1s;
-  }
-
-  .TextScrumble-progressbar.filled::before {
-    width:100%;
   }
