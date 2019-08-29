@@ -23,7 +23,8 @@ export default class Sidemenu extends Component {
 
     moveUnderlineToActive() {
         let el = document.querySelector('#Sidemenu .sidemenu-list .sidemenu-item.active');
-        this.setState({underlineWidth:el.offsetWidth, underlineOffset: el.offsetLeft});
+        //sometimes there can be no el, then we dont need this line
+        if (el) this.setState({underlineWidth:el.offsetWidth, underlineOffset: el.offsetLeft});
     }
 
     handleMenuChange(e) {
