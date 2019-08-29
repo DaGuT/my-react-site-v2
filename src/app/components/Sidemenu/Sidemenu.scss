@@ -38,37 +38,13 @@ $howManyItems:3;
             transition: .3s ease-in-out;
         }
 
-        @for $i from 0 through $howManyItems {
+        @for $i from 1 through $howManyItems {
             .item-#{$i}:hover~hr {
-                margin-left: 100/$howManyItems*$i;
+                margin-left: percentage(1/$howManyItems*(($i)-1));
             }
             .item-#{$i}.active~hr {
-                margin-left: 100/$howManyItems*$i;
+                margin-left: percentage(1/$howManyItems*(($i)-1));
             }
         }
     }
-}
-
-
-#Sidemenu .sidemenu-list .item-1:hover~hr {
-    margin-left: 0%;
-}
-
-#Sidemenu .sidemenu-list .item-1.active~hr {
-    margin-left: 0%;
-}
-#Sidemenu .sidemenu-list .item-2:hover~hr {
-    margin-left: 33%;
-}
-
-#Sidemenu .sidemenu-list .item-2.active~hr {
-    margin-left: 33%;
-}
-
-#Sidemenu .sidemenu-list .item-3:hover~hr {
-    margin-left: 66%;
-}
-
-#Sidemenu .sidemenu-list .item-3.active~hr {
-    margin-left: 66%;
 }
