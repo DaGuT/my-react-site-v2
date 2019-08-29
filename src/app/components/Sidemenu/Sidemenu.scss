@@ -1,0 +1,74 @@
+/*TODO: rewrite with sass*/
+$howManyItems:3;
+
+#Sidemenu {
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    transform: rotate(90deg);
+    z-index: 999;
+
+    .sidemenu-list {
+        overflow: hidden;
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        .sidemenu-item {
+            display: inline;
+            text-align: center;
+            width: 33%;
+
+            a {
+                display: inline-block;
+                color: white;
+                padding: .75rem 0;
+                margin: 0;
+                text-decoration: none;
+            }
+        }
+
+        hr {
+            height: .25rem;
+            width: 33%;
+            margin: 0;
+            background: tomato;
+            border: none;
+            transition: .3s ease-in-out;
+        }
+
+        @for $i from 0 through $howManyItems {
+            .item-#{$i}:hover~hr {
+                margin-left: 100/$howManyItems*$i;
+            }
+            .item-#{$i}.active~hr {
+                margin-left: 100/$howManyItems*$i;
+            }
+        }
+    }
+}
+
+
+#Sidemenu .sidemenu-list .item-1:hover~hr {
+    margin-left: 0%;
+}
+
+#Sidemenu .sidemenu-list .item-1.active~hr {
+    margin-left: 0%;
+}
+#Sidemenu .sidemenu-list .item-2:hover~hr {
+    margin-left: 33%;
+}
+
+#Sidemenu .sidemenu-list .item-2.active~hr {
+    margin-left: 33%;
+}
+
+#Sidemenu .sidemenu-list .item-3:hover~hr {
+    margin-left: 66%;
+}
+
+#Sidemenu .sidemenu-list .item-3.active~hr {
+    margin-left: 66%;
+}
