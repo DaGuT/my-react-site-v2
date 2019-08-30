@@ -34,7 +34,7 @@ const Portfolio = () => {
       setIsLoading(false);
     }
 
-    fetchData('/portfolio/portfolio.json');
+    fetchData('/portfolioassets/portfolio.json');
 
     //componentWillUnpmount
     //we calcel our async call so that satte will not be changed in fechData

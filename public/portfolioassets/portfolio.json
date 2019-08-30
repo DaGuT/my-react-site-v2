@@ -1,6 +1,6 @@
 [{
     "sitename": "JoyJoyScuba",
-    "imgSrc": "/portfolio/assets/img/jjs.png",
+    "imgSrc": "/portfolioassets/assets/img/jjs.png",
     "src": "//joyjoyscuba.com",
     "time": 1529048413,
     "labels": ["wordpress", "unique design", "premium template"],
@@ -10,7 +10,7 @@
   {
     "sitename": "DaGuT.Ru",
     "sitedesc": "Some text should be here about how cool this site is",
-    "imgSrc": "/portfolio/assets/img/dagutru.png",
+    "imgSrc": "/portfolioassets/assets/img/dagutru.png",
     "src": "//dagut.ru",
     "time": 1529048413,
     "labels": ["landing", "justme", "react", "git"],
@@ -19,7 +19,7 @@
   },
   {
     "sitename": "3 in a row game skeleton on PIXI",
-    "imgSrc": "/portfolio/assets/img/3inrow.PNG",
+    "imgSrc": "/portfolioassets/assets/img/3inrow.PNG",
     "src": "//demos.dagut.ru/3InARow/",
     "time": 1529048413,
     "labels": ["js", "PIXI", "game"],
@@ -28,7 +28,7 @@
   },
   {
     "sitename": "Particle text",
-    "imgSrc": "/portfolio/assets/img/particles.PNG",
+    "imgSrc": "/portfolioassets/assets/img/particles.PNG",
     "src": "//demos.dagut.ru/ParticlesText/",
     "time": 1529048413,
     "labels": ["js", "fun"],
@@ -38,7 +38,7 @@
   {
     "sitename": "GeoCalc",
     "sitedesc": "change to HTTP to work" ,
-    "imgSrc": "/portfolio/assets/img/geocalc.png",
+    "imgSrc": "/portfolioassets/assets/img/geocalc.png",
     "src": "http://geocalc.am.tpu.ru",
     "time": 1529048413,
     "labels": ["react"],
@@ -48,7 +48,7 @@
   {
     "sitename": "Weather App built with React :)",
     "sitedesc": "<a href='./demos/weather'>Weather App built with React :)</a> Latest version is on <a href='https://github.com/DaGuT/react-weather-app'>GIT</a>",
-    "imgSrc": "/portfolio/assets/img/weather.PNG",
+    "imgSrc": "/portfolioassets/assets/img/weather.PNG",
     "src": "//demos.dagut.ru/weather/",
     "time": 1529048413,
     "labels": ["js", "react", "app"],
@@ -58,7 +58,7 @@
   {
     "sitename": "Test task in Elecard. Эдакая галлерейка (Change protocol to HTTP to work) :) ",
     "sitedesc": "<a href='./demos/Elecard'>Test task in Elecard. Эдакая галлерейка (Change protocol to HTTP to work) :)</a> Latest version is on <a href='https://github.com/DaGuT/elecard-test'>GIT</a>",
-    "imgSrc": "/portfolio/assets/img/elecard.PNG",
+    "imgSrc": "/portfolioassets/assets/img/elecard.PNG",
     "src": "//demos.dagut.ru/Elecard/",
     "time": 1529048413,
     "labels": ["js", "app", "made with brackets", ""],
@@ -67,7 +67,7 @@
   },
   {
     "sitename": "Crypto-Converter",
-    "imgSrc": "/portfolio/assets/img/crypto.PNG",
+    "imgSrc": "/portfolioassets/assets/img/crypto.PNG",
     "src": "//crypto-converter.ru/",
     "time": 1529048413,
     "labels": ["wordpress", "backend", "template", "app", "script"],
@@ -77,7 +77,7 @@
   {
     "sitename": "Продающая страница BabyPresent",
     "sitedesc": "Сверстал по шаблону + добавил адаптивность",
-    "imgSrc": "/portfolio/assets/img/babypresent.PNG",
+    "imgSrc": "/portfolioassets/assets/img/babypresent.PNG",
     "src": "//demos.dagut.ru/babypresent/",
     "time": 1529048413,
     "labels": ["landing", "made with brackets", ""],
@@ -87,7 +87,7 @@
     {
       "sitename": "Генератор настенных карт",
       "sitedesc": "Бесплатный генератор настенных карт",
-      "imgSrc": "/portfolio/assets/img/mapdagutru.png",
+      "imgSrc": "/portfolioassets/assets/img/mapdagutru.png",
       "src": "http://map.dagut.ru",
       "time": 1565607384,
       "labels": [
