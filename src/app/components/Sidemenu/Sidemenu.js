@@ -51,7 +51,7 @@ export default class Sidemenu extends Component {
                     {links.map((link,i) => 
                         <li onMouseOver={this.handleMenuChange} onMouseLeave={this.moveUnderlineToActive} key={`menuitem-${i}`} className={`sidemenu-item ${this.props.location.pathname===link.link ? 'active' : ''}`}><Link to={link.link}>{link.name}</Link></li>
                     )}
-                    <hr ref={this.sidemenuUnderlineHr} style={{width:`${this.state.underlineWidth}px`, marginLeft:`${this.state.underlineOffset}px`}}/>
+                    <hr ref={this.sidemenuUnderlineHr} style={{width:`${this.state.underlineWidth}px`, marginLeft:`${this.state.underlineOffset-15}px`}}/>
                 </ul>
             </div>
         )
