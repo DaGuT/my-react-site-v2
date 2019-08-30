@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TextScramble from '../../../TextScramble';
+import TextScramble from 'react-textscramble'; 
 import './MainScreen.css';
 
 /**
@@ -28,7 +28,7 @@ export default class MainScreen extends Component {
   render() {
     // phrases list and freeDuration for TextScramble. Defined here just for
     // visibility
-    let phrases = ['Hi', 'How are you doing?', 'I am doing it!'];
+    let phrases = ['Hi', 'How are you doing?', 'I am still working on this site!', 'So something might not be working','And site will change a little bit in the end', 'But please enjoy your visit! ☺'];
     let freezeDuration = 1600;
 
     //and now we render :)
