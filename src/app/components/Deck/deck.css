@@ -1,6 +1,7 @@
 .grid-container .pf-item {
   background-size: cover;
   position:relative;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .with-overlay {
@@ -58,14 +59,6 @@
   opacity: 0.9;
 }
 
-.mfp-iframe-holder .mfp-content {
-  height:90%;
-  min-height:800px;
-  min-width:100%;
-}
-.mfp-iframe-scaler iframe {
-  background:white !important;
-}
 
 .changed-pointer a {
   text-decoration:underline;
