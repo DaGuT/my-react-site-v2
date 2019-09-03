@@ -1,7 +1,6 @@
 import React from 'react';
 import Deckitem from './Deckitem.js';
 import './grid.css';
-import {BigPictureGallery} from "react-bigpicture";
 
 const Deck = (props) => {
 
