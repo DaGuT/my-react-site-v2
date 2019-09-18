@@ -13,13 +13,14 @@ const Portfolio = () => {
   const [data,
     setData] = useState([]);
 
-  //componentDidMount and componentWillmount
+
+  //plentry of hooks are replaced with it
   useEffect(() => {
     //this var is used by us so that we can cancel our promise
     let cancellableResponse;
 
-    //function that is doing async call to fetch some url (in this case it will be portfolio)
-    //also it will report if there is error and if it is loading or not
+    // function that is doing async call to fetch some url (in this case it will be
+    // portfolio) also it will report if there is error and if it is loading or not
     const fetchData = async(url) => {
       //we're settings state to be loading
       setIsError(false);
@@ -36,8 +37,8 @@ const Portfolio = () => {
 
     fetchData('/portfolioassets/portfolio.json');
 
-    //componentWillUnpmount
-    //we calcel our async call so that satte will not be changed in fechData
+    // componentWillUnpmount we calcel our async call so that satte will not be
+    // changed in fechData
     return (() => {
       cancellableResponse && cancellableResponse.cancel && cancellableResponse.cancel();
     });

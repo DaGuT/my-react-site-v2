@@ -23,14 +23,30 @@
     "cols": 2
   },
   {
+    "sitename": "React+Redux blog",
+    "sitedesc": "React+Redux blog with client-side routing, registration, news creation/editing and some filters",
+    "imgSrc": "/portfolioassets/assets/img/blog.PNG",
+    "src": "//demos.dagut.ru/beautifulblog",
+    "time": 1568716907,
+    "labels": [
+      "react",
+      "redux",
+      "API",
+      "REST",
+      "blog"
+    ],
+    "rows": 5,
+    "cols": 3
+  },
+  {
     "sitename": "DaGuT.Ru",
     "sitedesc": "Some text should be here about how cool this site is, but it's not. Now I have better version",
     "imgSrc": "/portfolioassets/assets/img/dagutru.png",
     "src": "//demos.dagut.ru/mysite",
     "time": 1529048413,
     "labels": ["landing", "justme", "react", "git"],
-    "rows": 1,
-    "cols": 2
+    "rows": 2,
+    "cols": 3
   },
   {
     "sitename": "Particle text",
@@ -38,8 +54,8 @@
     "src": "//demos.dagut.ru/ParticlesText/",
     "time": 1529048413,
     "labels": ["js", "fun"],
-    "rows": 1,
-    "cols": 2
+    "rows": 2,
+    "cols": 3
   },
   {
     "sitename": "GeoCalc",

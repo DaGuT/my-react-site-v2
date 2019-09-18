@@ -60,7 +60,7 @@ DaGuT.additionalSkills = [
 const AlexanderMongolin = DaGuT; //renaming
 
 class Education {
-   constructor(universityName, degree, speciality , graduationYear, averageGrade) {
+   constructor(universityName, degree, speciality, graduationYear, averageGrade) {
         this.universityName = universityName;
         this.degree = degree;
         this.speciality = speciality;
