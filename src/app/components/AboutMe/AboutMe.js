@@ -8,7 +8,7 @@ const code_1 = `
 /* 
 Hi, It's me, Alexander (DaGuT) Mongolin!
 
-You'are about to read about me, so enjoy "code" :)
+You are about to read about me, so enjoy "code" :)
 
 It's normal and executable code, btw.
 */
